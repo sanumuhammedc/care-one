@@ -11,32 +11,11 @@ const UserDashboard = () => {
 
     const datas = [
         {
-            header: "Call Doctor",
-            img: "./assets/images/doctor.svg",
-            button: "Call Now",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reprehenderit.",
-            link: "/call-doctor"
-        },
-        {
             header: "Book Ambulance",
             img: "./assets/images/ambulance.svg",
             button: "Book Now",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reprehenderit.",
+            description: "Book an ambulance for your emergency",
             link: "/book-ambulance"
-        },
-        {
-            header: "Call Fire Force",
-            img: "./assets/images/fire.svg",
-            button: "Call Now",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reprehenderit.",
-            link: "tel:101"
-        },
-        {
-            header: "Medical Records",
-            img: "./assets/images/upload.svg",
-            button: "View Now",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reprehenderit.",
-            link: `/medical-records/${userId}`
         }
     
     ]

@@ -1,8 +1,6 @@
 import '@styles/global.css';
 import Nav from '@components/Nav';
 import Provider from '@components/Provider';
-import { ContextProvider } from '../components/context';
-import { useSession } from 'next-auth/react';
 
 
 export const metadata = {
